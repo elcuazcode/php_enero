@@ -13,6 +13,6 @@ $palabra = "optima"
 
 $encontrar = strpos($nombre, $palabra);
 
-
+// Eso es todo para la busqueda de palabras
 
 ?>
