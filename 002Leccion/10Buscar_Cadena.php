@@ -25,7 +25,7 @@ extraer una palabra e imprimirla
 OEM;
 
 
-$final_cut = substr($nombre, $encontrar);
+$final_cut = substr($nombre, $encontrar, -9);
 echo $final_cut;
 // Eso es todo para la busqueda de palabras
 
